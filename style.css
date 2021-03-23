@@ -1,0 +1,39 @@
+header main h1 h2 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    height: 80px;
+    background-color: #555555;
+    color: #fff;
+}
+
+
+main{
+    padding: 20px;
+    background-color:  #333333;
+    color: #fff;
+}
+
+.imagen{ 
+    width: 80vw;
+    height: 300px;
+    margin: 30px;
+    background-color: #cccccc;
+    color: #000;
+}
+
+@media (min-width: 720px) {
+  .imagen {
+    height: 300px;
+    width: 227px;
+  }
+}
+@media (min-width: 960px) {
+  .imagen {
+    height: 300px;
+    width: 315px;
+  }
+}
